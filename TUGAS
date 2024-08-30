@@ -1,0 +1,17 @@
+start_jam = 8
+start_menit = 52
+start_detik = 45
+
+
+start_total = start_jam * 3600 + start_menit * 60 + start_detik
+
+
+waktu_perjalanan = 5000
+kedatangan_total = start_total + waktu_perjalanan
+
+
+jam_kedatangan = kedatangan_total// 3600
+menit_kedatangan = (kedatangan_total% 3600) // 60
+detik_kedatangan = kedatangan_total % 60
+
+print(f"waktu kedatangan: {jam_kedatangan:02d}:{menit_kedatangan:02d}:{detik_kedatangan:02d}")

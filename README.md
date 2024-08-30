@@ -1,2 +1,2 @@
-# Tugas-Perancangan-sistem-dan-Algorithma
+# Tugas-Perancangan Perancangan dan Analisis Algoritma
 Python
